@@ -1,0 +1,50 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+li {
+    list-style-type: none;
+    font-family: roboto;
+    margin: 10px;
+    padding-left: -80px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navimenu {
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+    margin: 0;
+}
+
+.centro {
+    display: flex;
+}
+
+.menulogo {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+
+.navibar {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 80vh;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 80vh;
+    width: 80vw;
+}
+
